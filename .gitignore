@@ -1,0 +1,38 @@
+# Sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VSCode / PyCharm
+.vscode/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.sw[op]
+
+# Dados
+storage/raw/
+storage/bronze/
+storage/silver/
+storage/gold/
+storage/logs/
+*.parquet
+*.csv
+*.json
+
+# Secrets
+.env
+.env.*
